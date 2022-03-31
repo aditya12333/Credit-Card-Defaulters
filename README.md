@@ -17,12 +17,6 @@ The dataset has been taken from a Kaggle problem statement.
 ## Approach and Project cycle
 ![Screenshot 2021-03-03 204241](https://user-images.githubusercontent.com/54364376/109826645-01467a00-7c61-11eb-955b-b5f3e91935ee.png)
 
-* Data Exploration: Exploring the dataset using pandas, numpy etc.
-* Data Cleaning: Cleaning the dataset using pandas and numpy, handling null values.
-* EDA: Performing exploratory data analysis.
-* Model building: Build model using ML algorithms.
-* Pickel File: Select the model with best accuracy and save to a pickle file.
-
 ## Tchnology Used
 * Jupyter Notebook
 * For visualization seaborn has been used.
@@ -31,4 +25,5 @@ The dataset has been taken from a Kaggle problem statement.
 
 ## Algorithm
 
- * RandomForestClassifier
+ * The data has been divided into different cluster and then we trained these clusters using different algorithm for better accuracy.
+ * Random Forest algorithm has been used to build the model.
